@@ -33,7 +33,7 @@ library(plyr)
   hist(Total_step$Steps, breaks = 10, col = "red", xlab = "Steps", main = "Total Steps per Day", ylab = "Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)
+![](PA1_template_files/figure/unnamed-chunk-3-1.png)
 
 ```r
 # Calculat the mean and median of the total number of steps taken per day  
@@ -66,7 +66,7 @@ library(plyr)
     "Average Steps", main = "Average Steps by Interval per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)
+![](PA1_template_files/figure/unnamed-chunk-4-1.png)
 
 ```r
 # Finding out the 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps
@@ -118,7 +118,7 @@ library(plyr)
     hist(Total_step_new$Steps, breaks = 10, col = "green", xlab = "Steps", main = "Total Steps per Day", ylab = "Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)
+![](PA1_template_files/figure/unnamed-chunk-6-1.png)
 
 ```r
 # Calculate and report the mean and median total number of steps taken per day
@@ -157,6 +157,6 @@ library(plyr)
            layout=c(1,2), xlab = "Interval", ylab= "Mean Steps", main="Comparison of Activities on Weekday/Weekend")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-7-1.png)
+![](PA1_template_files/figure/unnamed-chunk-7-1.png)
 
 ##### It has been noticed that activity trends are not similar on weekend and Weekday. This may be due to people having an increased opportunity for activity beyond normal work hours for those who work during the week.
