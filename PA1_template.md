@@ -66,7 +66,7 @@ library(plyr)
     "Average Steps", main = "Average Steps by Interval per day")
 ```
 
-![](./RepData_PeerAssessment1/figure/unnamed-chunk-4-1.png)
+![](RepData_PeerAssessment1/figure/unnamed-chunk-4-1.png)
 
 ```r
 # Finding out the 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps
