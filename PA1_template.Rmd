@@ -1,18 +1,20 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Kalyan Saikia"
-keep_md: true
+
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 
 ## Loading and preprocessing the data
 
-```{r}
+```{r, echo=TRUE}
 
 library(ggplot2)
 library(plyr)
-library(knitr)
-opts_chunk$set(fig.path = "../Course5_projects/figure/")
+
 ```
 
 
@@ -42,7 +44,7 @@ opts_chunk$set(fig.path = "../Course5_projects/figure/")
 ```
 ##### From the analysis it is found that Average steps taken per day is 10766 and median value is 10765.
 
-## What is the average daily activity pattern?
+## What is the average daily activity patterns?
 
 ```{r}
 # Calculating average steps across all data by interval
