@@ -8,8 +8,6 @@ Kalyan Saikia
 ```r
 library(ggplot2)
 library(plyr)
-#library(knitr)
-#opts_chunk$set(fig.path = "../Course5_projects/figure/")
 ```
 
 
