@@ -33,7 +33,7 @@ library(plyr)
   hist(Total_step$Steps, breaks = 10, col = "red", xlab = "Steps", main = "Total Steps per Day", ylab = "Frequency")
 ```
 
-![](PA1_template_files/figure/unnamed-chunk-3-1.png)
+![](RepData_PeerAssessment1/figure/unnamed-chunk-3-1.png)
 
 ```r
 # Calculat the mean and median of the total number of steps taken per day  
@@ -66,7 +66,7 @@ library(plyr)
     "Average Steps", main = "Average Steps by Interval per day")
 ```
 
-![](PA1_template_files/figure/unnamed-chunk-4-1.png)
+![](./RepData_PeerAssessment1/figure/unnamed-chunk-4-1.png)
 
 ```r
 # Finding out the 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps
