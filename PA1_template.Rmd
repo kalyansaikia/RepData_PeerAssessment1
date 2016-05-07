@@ -1,19 +1,22 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
 author: "Kalyan Saikia"
+keep_md: true
 ---
 
 
 ## Loading and preprocessing the data
 
-```{r, echo = TRUE}
+```{r}
+
 library(ggplot2)
 library(plyr)
+library(knitr)
+opts_chunk$set(fig.path = "../Course5_projects/figure/")
 ```
 
 
-
-```{r, echo = TRUE}
+```{r}
 # Reading Data into dataframe
     data_activity<- read.csv("activity.csv")
 

@@ -117,7 +117,9 @@ $(document).ready(function () {
 <div id="loading-and-preprocessing-the-data" class="section level2">
 <h2>Loading and preprocessing the data</h2>
 <pre class="r"><code>library(ggplot2)
-library(plyr)</code></pre>
+library(plyr)
+library(knitr)
+opts_chunk$set(fig.path = &quot;../Course5_projects/figure/&quot;)</code></pre>
 <pre class="r"><code># Reading Data into dataframe
     data_activity&lt;- read.csv(&quot;activity.csv&quot;)
 
